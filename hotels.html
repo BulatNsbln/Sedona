@@ -30,7 +30,63 @@
     <main class="container">
         <section class="filters">
             <h2 class="visually-hidden">Фильтр товаров</h2>
-            <!-- Здесь будет форма -->
+            
+            <form class="filter" method="GET" action="#">
+                <fieldset>
+                    <legend>Инфраструктура</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                Бассейн
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Парковка
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                WI-FI
+                            </label>
+                        </li>
+                    </ul>     
+                </fieldset> 
+
+                <fieldset>
+                    <legend>Тип жилья:</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                Гостиница
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                Мотель
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                Апартаменты
+                            </label>
+                        </li>
+                    </ul>     
+                </fieldset> 
+                
+                <fieldset>
+                    <legend>Стоимость в сутки (р):</legend>
+                    <input type="range" min="0" max="100" step="10">
+                </fieldset>
+                <button type="submit" class="button">Показать</button>
+            </form>
+
         </section>
 
         <section class="sort-settings">
@@ -97,19 +153,19 @@
         <p class="main-footer-title">#visitSEDONA</p>
         <ul class='footer-contacts'>
             <li>
-                <a class="social-button" href="#">twitter</a>
+                <a class="social-button" href="#" aria-label="twitter">twitter</a>
             </li>
             <li>
-                <a class="social-button" href="#">fb</a>
+                <a class="social-button" href="#" aria-label="facebook">fb</a>
             </li>
             <li>
-                <a class="social-button" href="#">youtube</a>
+                <a class="social-button" href="#" aria-label="youtube">youtube</a>
             </li>
         </ul>
     
         <p class="footer-copyright">
             <b>website by</b>
-            <a class="button" href="#">HTML Academy</a>
+            <a class="button" href="#" aria-label="HTML Academy">HTML Academy</a>
         </p>
     </footer>   
 </body>
