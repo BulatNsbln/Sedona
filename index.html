@@ -167,9 +167,33 @@
     </footer>
 
     <section class="modal modal-search-hostels">
-        <!-- добавить input -->
-        
-        <button>Найти</button>
+        <form class="search-form" action="#" method="POST">
+            <p class="search-item">
+                <label>
+                    Дата заезда:
+                    <input type="text" placeholder="28 декабря 2018" name="date">
+                </label>
+            </p>
+            <p class="search-item">
+                <label>
+                    Дата выезда:
+                    <input type="text" placeholder="10 января 2019" name="date">
+                </label>
+            </p>
+            <p class="search-item">
+                <label>
+                    Взрослые:
+                    <input type="number" placeholder="3" name="number">
+                </label>
+            </p>
+            <p class="search-item">
+                <label>
+                    Дети:
+                    <input type="number" placeholder="0" name="number">
+                </label>
+            </p>
+            <a type="button" class="button" href="#">Найти</a>
+        </form>
     </section>
 </body>
 </html>
