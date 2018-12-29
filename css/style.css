@@ -1,0 +1,136 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+    
+
+    background-color: #f2f2f2;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 96%;
+}
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a {
+    color: #000000;
+}
+
+.intro {
+    background-color: brown;
+    background-image: url("../img/background-intro.jpg");
+
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 773px;
+    width: 1200px;
+}
+
+.intro-title {
+    font-size: 21px;
+    line-height: 26px;
+
+    background-color: #fff;
+}
+
+.advantages {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.advantages-title {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.advantage {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.advantages h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.advantages-list {
+    list-style: none;
+    background-color: #eeeeee;
+}
+
+.advantages-list p {
+    color: #333333;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features-list h3 {
+    color: #000000;
+    font-size: 21px;
+}
+
+.features-list p {
+    font-weight: normal;
+    color: #333333;
+}
+
+.map {
+   background-image: url("../img/map.jpg"); 
+   background-repeat: no-repeat;
+}
+
+.search-title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.search-description {
+    line-height: 24px;
+    font-weight: normal;
+    color: #333333;
+}
