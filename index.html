@@ -149,33 +149,6 @@
                 <a class="button" href="#">Поиск гостиницы в седоне</a>
                 
                 <div class="map">
-                    <form class="search-form" action="#" method="POST">
-                        <p class="search-item">
-                            <label>
-                                Дата заезда:
-                                <input type="text" placeholder="28 декабря 2018" name="date">
-                            </label>
-                        </p>
-                        <p class="search-item">
-                            <label>
-                                Дата выезда:
-                                <input type="text" placeholder="10 января 2019" name="date">
-                            </label>
-                        </p>
-                        <p class="search-item">
-                            <label>
-                                Взрослые:
-                                <input type="number" placeholder="3" name="number" min="0" max="10" step="1" value="3">
-                            </label>
-                        </p>
-                        <p class="search-item">
-                            <label>
-                                Дети:
-                                <input type="number" placeholder="0" name="number" min="0" max="10" step="1" value="0">
-                            </label>
-                        </p>
-                        <a type="button" class="button" href="#">Найти</a>
-                    </form>
                 </div>        
             </section>
         </main>
@@ -196,10 +169,39 @@
 
             <p class="footer-copyright">
                 <b>website by</b>
-                <a href="#" aria-label="Сайт HTML Academy">HTML Academy</a>
+                <a href="#" class="social-button">HTML Academy</a>
             </p>
         </footer>
 
+        <section class="search module-search">
+            <form class="search-form" action="#" method="POST">
+                <p class="search-item">
+                    <label>
+                        Дата заезда:
+                        <input type="text" placeholder="28 декабря 2018" name="date" value="28 декабря 2018">
+                    </label>
+                </p>
+                <p class="search-item">
+                    <label>
+                        Дата выезда:
+                        <input type="text" placeholder="10 января 2019" name="date" value="10 января 2019">
+                    </label>
+                </p>
+                <p class="search-item">
+                    <label>
+                        Взрослые:
+                        <input type="number" placeholder="3" name="number" min="0" max="10" step="1" value="3">
+                    </label>
+                </p>
+                <p class="search-item">
+                    <label>
+                        Дети:
+                        <input type="number" placeholder="0" name="number" min="0" max="10" step="1" value="0">
+                    </label>
+                </p>
+                <a type="button" class="button" href="#">Найти</a>
+            </form>
+        </section>
         
     </div>    
 </body>
