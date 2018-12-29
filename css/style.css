@@ -39,6 +39,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -49,10 +50,6 @@ a {
 .main-navigation {
     font-size: 14px;
     line-height: 26px;
-}
-
-.site-navigation a {
-    color: #000000;
 }
 
 .site-navigation a:hover {
@@ -215,3 +212,86 @@ a {
     background-color: #5496bd;
 }
 
+
+/* hotels.html */
+
+fieldset {
+    border: none;
+}
+
+.filters {
+    background-color: black;
+    background-image: url('../img/filter\ background.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.filters legend {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.filters .button {
+    font: inherit;
+    color:white;
+    text-transform: uppercase;
+
+    background-color: transparent;
+    
+    border: 2px solid white;
+}
+
+.sort-settings-list  a {
+    color: black;
+}
+
+.sort-settings {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sort-settings-title {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.sort-setting-item-current a {
+    color: #81b3d2;
+}
+
+.sort-setting-item a {
+    opacity: 0.3;
+    border-bottom: 2px dotted black; 
+}
+
+.hotel-item-title {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.hotel-item-category,
+.hotel-item-price {
+    color: #333333;
+}
+
+.hotels-list .button {
+    color: white;
+}
+
+.button-detailed {
+    background-color: #81b3d2;
+}
+
+.button-book {
+    background-color: #766357;
+}
+
+.rating {
+    background-color: #f2f2f2;
+    font-weight: normal;
+}
