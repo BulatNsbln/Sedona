@@ -243,6 +243,13 @@ fieldset {
     background-color: transparent;
     
     border: 2px solid white;
+    border-radius: 2px;
+}
+
+.filters .button:hover {
+    background-color: white;
+    color: black;
+
 }
 
 .sort-settings-list  a {
@@ -264,14 +271,39 @@ fieldset {
     color: #81b3d2;
 }
 
+.sort-setting-item-current a:hover {
+    border-bottom: 2px dotted #81b3d2; 
+}
+
 .sort-setting-item a {
     opacity: 0.3;
     border-bottom: 2px dotted black; 
 }
 
+.sort-setting-item a:hover {
+    opacity: 1;
+    color: #81b3d2;
+    border-bottom-color: #81b3d2;
+}
+
+.sort-setting-item-current a:active,
+.sort-setting-item a:active {
+    color: black;
+    border: none;
+}
+
+
 .hotel-item-title {
     font-size: 21px;
     line-height: 26px;
+}
+
+.hotel-item-title:hover {
+    color: #81b3d2;
+}
+
+.hotel-item-title:active {
+    opacity: 0.3;
 }
 
 .hotel-item-category,
@@ -287,11 +319,41 @@ fieldset {
     background-color: #81b3d2;
 }
 
+.button-detailed:hover {
+    background-color: #669ec0;
+}
+
+.button-detailed:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
 .button-book {
     background-color: #766357;
+}
+
+.button-book:hover {
+    background-color: #604e43;
+}
+
+.button-book:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .rating {
     background-color: #f2f2f2;
     font-weight: normal;
+}
+
+.sort-switch a {
+    color: #cacaca;
+}
+
+.sort-switch a:hover {
+    color: #231f20;
+}
+
+.sort-switch a:active {
+    color: #81b3d2;
 }
