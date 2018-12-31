@@ -500,3 +500,38 @@ fieldset {
 .feature-item {
     text-align: center;
 }
+
+.intro-title {
+    padding-top: 70px;
+}
+
+.advantages-title {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.features-list {
+    background-color: white;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.advantages-list {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.search {
+    background-color: #fff;
+    margin-top: 0;
+}
+
+.search-title {
+    margin: 0;
+}
+
+.main-footer-1 {
+    margin-top: -50px;
+}
