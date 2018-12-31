@@ -8,17 +8,19 @@
     <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container-hotels">
         <header class='main-header'>   
             <nav class='main-navigation'>           
-                <a class="main-header-logo">
-                    <img src='./img/main-logo.png' width='138' height='70' alt="Логотип">   
-                </a>
                 <ul class='site-navigation'>
-                    <li>
+                    <li class="main-header-logo">
+                        <a class="main-header-logo">
+                            <img src='./img/main-logo.png' width='138' height='70' alt="Логотип">   
+                        </a> 
+                    </li>
+                    <li class="info">
                         <a href='info.html'>Информация</a>
                     </li>
-                    <li>
+                    <li class="photo">
                         <a href="photo.html">Фото и видео</a>
                     </li>
                     <li>
@@ -28,7 +30,7 @@
                         <a href="hostels.html">Гостиницы</a>
                     </li>
                 </ul>
-            </nav>        
+            </nav>
         </header>
 
         <main class="main-container">
@@ -84,11 +86,13 @@
                         </ul>     
                     </fieldset> 
                     
-                    <fieldset>
-                        <legend>Стоимость в сутки (р):</legend>
-                        <input type="range" min="0" max="100" step="10">
-                    </fieldset>
-                    <button type="submit" class="button">Показать</button>
+                    <div>
+                        <fieldset>
+                            <legend>Стоимость в сутки (р):</legend>
+                            <input type="range" min="0" max="100" step="10">
+                        </fieldset>
+                        <button type="submit" class="button">Показать</button>
+                    </div>    
                 </form>
 
             </section>

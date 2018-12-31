@@ -230,10 +230,7 @@ fieldset {
 }
 
 .filters {
-    background-color: black;
-    background-image: url('../img/filter\ background.jpg');
-    background-repeat: no-repeat;
-    background-position: top left;
+    
     
     color: #ffffff;
     font-weight: normal;
@@ -534,4 +531,46 @@ fieldset {
 
 .main-footer-1 {
     margin-top: -50px;
+}
+
+.container-hotels {
+    margin: 0 auto;
+    padding: 0;
+
+    height: 773px;
+    width: 1200px;
+
+    background-color: black;
+    background-image: url('../img/filter\ background.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.filter {
+    display: flex;
+
+}
+
+.sort-settings {
+    display: flex;
+    background-color: #fff;
+}
+
+.sort-settings-list {
+    display: flex;
+}
+
+.sort-switch {
+    display: flex;
+}
+
+.hotels {
+    background-color: #fff; 
+    
+}
+
+.hotels-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
