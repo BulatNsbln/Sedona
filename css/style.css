@@ -151,6 +151,8 @@ a {
     line-height: 24px;
     font-weight: normal;
     color: #333333;
+    padding-top: 12px;
+    padding-left: 5px;
 }
 
 .search .button {
@@ -159,6 +161,10 @@ a {
     line-height: 26px;
 
     background-color: #766357;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 30px 140px;
+
 }
 
 .search .button:hover {
@@ -375,7 +381,7 @@ fieldset {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    
     align-items: center;
     background-color: #fff;
     height: 56px;
@@ -427,6 +433,7 @@ fieldset {
 
 .advantage {
     display: flex;
+    position: relative;
 }
 
 .advantage-1 img {
@@ -450,13 +457,12 @@ fieldset {
 
 .features-list {
     display: flex;
-    justify-content: space-around;
-    
 }
 
 .main-header-logo {
     padding: 0;
     margin-top: 22px;
+    margin-left: 0px;
 } 
 
 .images-intro {
@@ -466,7 +472,7 @@ fieldset {
 }
 
 .images-intro img:first-child {
-    margin-top: 70px;
+    margin-top: 77px;
 }
 
 .images-intro img:nth-child(2) {
@@ -474,20 +480,38 @@ fieldset {
 }
 
 .images-intro img:nth-child(3) {
-    margin-top: 60px;
+    margin-top: 52px;
 }
 
 .images-intro img:nth-child(4) {
-    margin-top: 55px;
+    margin-top: 57px;
 }
 
 .images-intro img:nth-child(5) {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .advantage div {
     text-align: center;
-    margin: auto;
+    margin: auto;   
+}
+
+
+
+.advantage div p {
+    padding-top: 5px;
+}
+
+.advantage-1 div {
+    position: absolute;
+    top: 26px;
+    left: 60px;
+}
+
+.advantage-2 div {
+    position: absolute;
+    top: 25px;
+    right: 45px;
 }
 
 .advantages-list li {
@@ -496,14 +520,64 @@ fieldset {
 
 .feature-item {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 32px;
 }
 
+.feature-item h3 {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.feature-item p {
+    padding: 0;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.feature-item:nth-child(1) {
+    margin-left: 30px;
+}
+
+.feature-item:nth-child(2) {
+    margin-left: 130px;
+}
+
+.feature-item:nth-child(3) {
+    margin-left: 122px;
+}
+
+.feature-item:nth-child(3) h3{
+    margin-top: 26px;
+}
+
+.feature-item:nth-child(1) span {
+    background-image: url(../img/icon-1.svg);
+    background-repeat: no-repeat;
+}
+
+.feature-item:nth-child(2) span {
+    background-image: url(../img/icon-3.svg);
+    background-repeat: no-repeat;
+}
+
+.feature-item:nth-child(3) span {
+    background-image: url(../img/icon-2.svg);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 76px;;
+}
+
+
+
 .intro-title {
-    padding-top: 70px;
+    padding-top: 60px;
+    padding-left: 2px;
 }
 
 .advantages-title {
-    padding-top: 30px;
+    padding-top: 28px;
     padding-bottom: 50px;
 }
 
@@ -518,6 +592,7 @@ fieldset {
     padding-top: 30px;
     padding-bottom: 50px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .search {
@@ -527,6 +602,8 @@ fieldset {
 
 .search-title {
     margin: 0;
+    padding: 0;
+    padding-top: 50px;
 }
 
 .main-footer-1 {
@@ -573,4 +650,37 @@ fieldset {
     display: flex;
     flex-direction: column;
     margin: 0;
+}
+
+.main-header-logo {
+    margin-left: 62px;
+
+}
+
+.info {
+    margin-left: 72px;
+
+}
+
+.photo {
+    margin-left: 146px;
+
+}
+
+.main-header-map {
+    margin-left: 124px;
+
+}
+
+.main-header-hotels {
+    margin-left: 168px;
+
+}
+
+.feature-item span {
+    display: block;
+    width: 75px;
+    height: 72px;
+    background-color: white;
+    margin: 0 auto;
 }
