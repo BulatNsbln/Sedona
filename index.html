@@ -217,13 +217,21 @@
                 <p class="search-item">
                     <label>
                         Взрослые:
-                        <input type="number" placeholder="3" name="number" min="0" max="10" step="1">
+                        <div class="search-item-wrapper search-ite-wrapper-parents">
+                            <a class="minus" href="#">-</a>
+                            <span class="result">3</span>
+                            <a class="plus" href="#">+</a>
+                        </div>
                     </label>
                 </p>
-                <p class="search-item">
+                <p class="search-item-children">
                     <label>
                         Дети:
-                        <input type="number" placeholder="0" name="number" min="0" max="10" step="1">
+                        <div class="search-item-wrapper search-item-wrapper-children">
+                            <a class="minus" href="#">-</a>
+                            <span class="result">0</span>
+                            <a class="plus" href="#">+</a>
+                        </div>
                     </label>
                 </p>
                 <a class="button" href="./hotels.html">Найти</a>
