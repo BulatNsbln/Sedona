@@ -372,7 +372,7 @@ a {
 
 .module-search {
     background-color: #fff;
-
+    position: relative;
     line-height: 26px;
 }
 
@@ -574,30 +574,65 @@ a {
 }
 
 .search-item:nth-child(1) {
-    margin-left: 56px;
-    margin-top: 63px;
+    position: absolute;
+    top: 62px;
+    left: 58px;
 }
 
-.search-form {
-    display: inline-block;
-}
+
 
 .search-item:nth-child(2) {
-    margin-left: 56px;
-    margin-top: 40px;
+    position: absolute;
+    top: 128px;
+    left: 58px;
 }
 
 .search-item:nth-child(3) {
-    margin-left: 56px;
-    margin-top: 40px;
-    display: inline-block;
+    position: absolute;
+    top: 195px;
+    left: 56px;
 }
 
 .search-item:nth-child(4) {
-    margin-left: 156px;
-    margin-top: 40px;
-    display: inline-block;
+    position: absolute;
+    top: 195px;
+    left: 336px;
 }
+
+.search-item input[type=text] {
+    padding: 6px 40px 6px 10px;
+    
+    box-sizing: border-box;
+    font: inherit;
+    width: 348px;
+}
+
+.search-item:nth-child(1) input[type=text] {
+    position: absolute;
+    top: -5px;
+    left: 110px;
+}
+
+.search-item:nth-child(2) input[type=text] {
+    position: absolute;
+    top: -6px;
+    left: 110px;
+}
+
+.search-item:nth-child(1)::before,
+.search-item:nth-child(2)::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: -6px;
+    left: 421px;
+    z-index: 1;
+}
+
 
 
 
@@ -693,6 +728,15 @@ a {
     color: black;
 
 }
+
+.filter-options-infrastructure  input::before {
+    content: "fgdgd";
+    background-color: black;
+    width: 23px;
+    height: 23px;
+    
+}
+
 
 .sort-settings-list  a {
     color: black;
