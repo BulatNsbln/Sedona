@@ -659,7 +659,9 @@ a {
     left: 405px;
 }
 
-
+.hidden {
+    display: none;
+}
 /* 
 *****
 ****
