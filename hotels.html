@@ -65,22 +65,22 @@
 
                     <fieldset>
                         <legend>Тип жилья:</legend>
-                        <ul>
+                        <ul class="filter-options-infrastructure">
                             <li>
                                 <label>
-                                    <input type="checkbox" checked>
+                                    <input class="visually-hidden" type="checkbox" checked>
                                     Гостиница
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="checkbox" checked>
+                                    <input class="visually-hidden" type="checkbox" checked>
                                     Мотель
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="checkbox" checked>
+                                    <input class="visually-hidden" type="checkbox" checked>
                                     Апартаменты
                                 </label>
                             </li>
@@ -88,11 +88,16 @@
                     </fieldset> 
                     
                     <div>
-                        <fieldset>
+                        <fieldset class="filter-options-cost">
                             <legend>Стоимость в сутки (р):</legend>
-                            <input type="range" min="0" max="100" step="10">
+                            <div>
+                                <p>ОТ 0</p>
+                                <p>ДО 3000</p>
+                            </div>
+                            <input class="visually-hidden" type="range" min="0" max="100" step="10">
+
                         </fieldset>
-                        <button type="submit" class="button">Показать</button>
+                        <button type="submit" class="button button-shows">Показать</button>
                     </div>    
                 </form>
 

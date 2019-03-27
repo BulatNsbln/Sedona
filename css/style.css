@@ -760,7 +760,7 @@ a {
     border: 2px solid white;
 
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: -40px;
     
 }
@@ -769,6 +769,8 @@ a {
     position: relative;
     margin: 10px 10px;
     display: block;
+
+    font-family: 'PT Sans', Arial, sans-serif;
 }
 
 
@@ -960,6 +962,12 @@ a {
 .sort-switch a:active {
     color: #81b3d2;
 }
+div .filter-options-cost {
+    margin-left: 300px;
+}
 
+.button-shows {
+    margin-left: 350px;
+}
 
 
